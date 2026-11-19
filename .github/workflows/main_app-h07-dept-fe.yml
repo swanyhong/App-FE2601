@@ -45,5 +45,5 @@ jobs:
         with:
           app-name: 'app-h07-dept-fe'
           slot-name: 'Production'
-          package: ./dist
+          package: .
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_C0C80D64520B4BDCB6A4F71FD7F7F1C5 }}
